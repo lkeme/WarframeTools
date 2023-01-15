@@ -14,4 +14,4 @@ from lib.python_hosts.exception import (HostsException, HostsEntryException,
                                     InvalidIPv4Address, InvalidIPv6Address,
                                     InvalidComment)
 
-name = "python_hosts"
+# name = "lib.python_hosts"

@@ -17,9 +17,9 @@ try:
     from urllib.request import urlopen
 except ImportError:  # pragma: no cover
     from urllib2 import urlopen
-from python_hosts.utils import (is_ipv4, is_ipv6, is_readable, valid_hostnames,
+from lib.python_hosts.utils import (is_ipv4, is_ipv6, is_readable, valid_hostnames,
                                 dedupe_list)
-from python_hosts.exception import (InvalidIPv6Address, InvalidIPv4Address,
+from lib.python_hosts.exception import (InvalidIPv6Address, InvalidIPv4Address,
                                     UnableToWriteHosts)
 
 
