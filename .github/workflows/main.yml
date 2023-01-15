@@ -61,5 +61,5 @@ jobs:
         with:
            upload_url: ${{ steps.create_release.outputs.upload_url }}
            asset_path: dist/WarframeTools-latest-windows-x64.zip
-           asset_name: WarframeTools-latest-windows-x64
+           asset_name: WarframeTools-latest-windows-x64.zip
            asset_content_type: application/zip
