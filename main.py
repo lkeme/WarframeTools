@@ -33,6 +33,7 @@ STATEMENT = '仅供学习使用，请勿用于非法用途'
 TITLE_CR = f'{APPNAME} v{VERSION}        Copyright (c) 2022 Lkeme'
 ECHO_CR = f'欢迎使用: {APPNAME} 版本: {VERSION} 通知: {STATEMENT}'
 ADD_ECHO_CR = f'自用版本 Copyright (c) 2022 Lkeme'  # None
+PROJECT_CR = f'开源项目地址 https://github.com/lkeme/WarframeTools'
 
 # 全局记录
 GLOBAL_RESULTS = {}
@@ -50,6 +51,7 @@ def boot() -> bool:
     printer(ECHO_CR, TITLE, 'yellow')
     if ADD_ECHO_CR is not None:
         printer(ADD_ECHO_CR, TITLE, 'yellow')
+        printer(PROJECT_CR, TITLE, 'yellow')
     # printer(ECHO_CR, TITLE, 'magenta')
     # printer(ECHO_CR, TITLE, 'blue')
     # printer(ECHO_CR, TITLE, 'red')
